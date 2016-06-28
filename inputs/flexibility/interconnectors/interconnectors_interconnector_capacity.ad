@@ -1,4 +1,8 @@
 - query =
+    EACH(
+      UPDATE(V(energy_interconnector_imported_electricity), electricity_output_capacity, USER_INPUT()),
+      UPDATE(V(energy_export_electricity), typical_input_capacity, USER_INPUT())
+    )
 - priority = 0
 - max_value = 20000.0
 - min_value = 0.0

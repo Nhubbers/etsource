@@ -4,14 +4,14 @@
       households_space_heater_heatpump_ground_water_electricity,
       households_water_heater_heatpump_air_water_electricity,
       households_water_heater_heatpump_ground_water_electricity,
-      households_space_heater_heatpump_add_on_electricity,
+      households_space_heater_hybrid_heatpump_air_water_electricity,
+      households_water_heater_hybrid_heatpump_air_water_electricity,
       households_cooling_heatpump_air_water_electricity,
       households_cooling_heatpump_ground_water_electricity,
       agriculture_heatpump_water_water_ts_electricity,
       households_space_heater_heatpump_air_water_electricity,
       buildings_cooling_airconditioning_electricity,
       buildings_cooling_collective_heatpump_water_water_ts_electricity,
-      buildings_cooling_collective_cooling_network_electricity,
       input_of_electricity
     ).sum/BILLIONS
 - deprecated_key = heatpumps_input_of_electricity

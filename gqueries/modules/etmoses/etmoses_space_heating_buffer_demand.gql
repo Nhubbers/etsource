@@ -1,0 +1,10 @@
+# Returns total demand for space heating to be assigned to buffers when
+# importing a scenario into ETMoses.
+
+- query =
+    V(
+      INTERSECTION(G(etmoses),CHILDREN(V(households_useful_demand_for_space_heating_after_insulation_and_solar_heater))), 
+      output_of_useable_heat
+    ).sum / BILLIONS
+
+- unit = PJ
